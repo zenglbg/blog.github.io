@@ -9,9 +9,9 @@
     <div class="nav-list">
       <a href="/"> Home</a>
       <a href="https://img.zlbg.cc"> Blog</a>
-      <a href="/archive"> Archive</a>
-      <a href="/music"> Music</a>
-      <a href="/post/7891c3aa-c292-4a3a-9e34-9434d69fe21d"> About</a>
+      <a href="/"> Archive</a>
+      <a href="/"> Music</a>
+      <a href="/"> About</a>
     </div>
   </nav>
 </template>
