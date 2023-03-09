@@ -12,7 +12,9 @@ export default defineNuxtConfig({
       title: "zlbg",
       titleTemplate: "%s - 最爱",
       // meta标签
-      meta: [],
+      meta: [
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+      ],
       // link方式引入的css或者文件
       link: [
         {
@@ -24,6 +26,9 @@ export default defineNuxtConfig({
       // script文件
       // script: [{ src: '/zl/easemob.js', defer: true }],
     },
+  },
+  experimental: {
+    payloadExtraction: false,
   },
   generate: {},
   modules: ["@element-plus/nuxt"],
