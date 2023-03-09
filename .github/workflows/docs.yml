@@ -48,7 +48,6 @@ jobs:
           # deploy the default output dir of VuePress
           build_dir: .output/public
           fqdn: blog.zlbg.cc
-          author: zenglbg@gmail.com
           commit_message: "更新内容"
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
