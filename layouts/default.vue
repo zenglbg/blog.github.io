@@ -4,7 +4,7 @@
       <!-- <el-header>Header</el-header> -->
       <app-header></app-header>
       <slot />
-      <el-footer>Footer</el-footer>
+      <app-footer></app-footer>
     </el-container>
   </div>
 </template>

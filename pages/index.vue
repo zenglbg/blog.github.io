@@ -6,11 +6,6 @@
       </el-carousel-item>
     </el-carousel>
   </div>
-  <div>
-    <h1>
-      <NuxtLink to="/chat/chat">前往chat页面</NuxtLink>
-    </h1>
-  </div>
 </template>
 
 <script setup>
@@ -19,15 +14,15 @@
 //   $fetch(`http://localhost/post`),
 // );
 const bannerlist = ref([
-  'https://img.zlbg.cc/images/blog/ext1.jpeg',
-  'https://img.zlbg.cc/images/blog/exthong_kong_4103334_1920.jpg',
-  'https://img.zlbg.cc/images/blog/extgreat_wall_3022907_1920.jpg',
-  'https://img.zlbg.cc/images/blog/extanalytics_3088958_640.jpg',
+  "https://img.zlbg.cc/images/blog/ext1.jpeg",
+  "https://img.zlbg.cc/images/blog/exthong_kong_4103334_1920.jpg",
+  "https://img.zlbg.cc/images/blog/extgreat_wall_3022907_1920.jpg",
+  "https://img.zlbg.cc/images/blog/extanalytics_3088958_640.jpg",
 ]);
 const { data: posts, refresh: getData } = await useFetch(
-  'http://localhost/post',
+  "http://localhost/post"
 );
-console.log('🚀 ~ file: index.vue:25 ~ posts:', posts.value);
+console.log("🚀 ~ file: index.vue:25 ~ posts:", posts.value);
 </script>
 
 <style lang="scss" scoped>

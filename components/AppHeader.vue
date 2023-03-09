@@ -9,6 +9,7 @@
     <div class="nav-list">
       <a href="/"> Home</a>
       <a href="https://img.zlbg.cc"> Blog</a>
+      <NuxtLink to="/chat/chat">Chat</NuxtLink>
       <a href="/"> Archive</a>
       <a href="/"> Music</a>
       <a href="/"> About</a>
