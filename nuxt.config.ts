@@ -7,6 +7,7 @@ const env = ExcutingAnOrder[ExcutingAnOrder.length - 1];
 export default defineNuxtConfig({
   app: {
     baseURL: "",
+    buildAssetsDir: "/assets/",
     head: {
       title: "zlbg",
       titleTemplate: "%s - 最爱",
@@ -24,6 +25,7 @@ export default defineNuxtConfig({
       // script: [{ src: '/zl/easemob.js', defer: true }],
     },
   },
+  generate: {},
   modules: ["@element-plus/nuxt"],
   elementPlus: {
     importStyle: "css",
