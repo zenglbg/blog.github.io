@@ -17,6 +17,7 @@
 .footer-wrap {
   margin: 76px auto 38px;
   width: 1000px;
+  height: auto;
 
   .create-box {
     display: flex;
@@ -24,13 +25,13 @@
     justify-content: flex-start;
     -webkit-box-align: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 600;
   }
 
   hr {
     box-sizing: content-box;
-    margin: 0.47rem 0px 0.94rem;
+    margin: 10px 0px;
     padding: 0px;
     width: 100%;
     height: 1px;

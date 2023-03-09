@@ -37,14 +37,4 @@ console.log("🚀 ~ file: index.vue:25 ~ posts:", posts.value);
   }
 }
 </style>
-
-<style lang="scss">
-* {
-  padding: 0;
-  margin: 0;
-}
-
-h2 {
-  color: pink;
-}
-</style>
+ 
