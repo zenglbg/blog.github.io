@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         {
           rel: "icon",
           type: "image/x-icon",
-          href: "https://img.zlbg.cc/images/blog/icon-logo/extlbg.png",
+          href: "/images/blog/icon-logo/extlbg.png",
         },
       ],
       // script文件

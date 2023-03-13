@@ -31,10 +31,10 @@ export default defineComponent({
     }
 
     const bannerlist = ref([
-      "https://img.zlbg.cc/images/blog/ext1.jpeg",
-      "https://img.zlbg.cc/images/blog/exthong_kong_4103334_1920.jpg",
-      "https://img.zlbg.cc/images/blog/extgreat_wall_3022907_1920.jpg",
-      "https://img.zlbg.cc/images/blog/extanalytics_3088958_640.jpg",
+      "/images/blog/ext1.jpeg",
+      "/images/blog/exthong_kong_4103334_1920.jpg",
+      "/images/blog/extgreat_wall_3022907_1920.jpg",
+      "/images/blog/extanalytics_3088958_640.jpg",
     ]);
     return {
       bannerlist,

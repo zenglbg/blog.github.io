@@ -2,7 +2,7 @@
   <nav class="nav-box">
     <a href="/" class="logo">
       <img
-        src="https://img.zlbg.cc/images/blog/icon-logo/extzenglbg.png"
+        src="/images/blog/icon-logo/extzenglbg.png"
         alt=""
     /></a>
 
