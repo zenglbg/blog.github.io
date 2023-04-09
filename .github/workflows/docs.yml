@@ -17,25 +17,26 @@ jobs:
           # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          # choose pnpm version to use
-          version: 7
-          # install deps with pnpm
-          run_install: true
 
-      - name: Setup Node1.js
+      - name: Set Node.js 16.x
         uses: actions/setup-node@v3
         with:
-          # choose node.js version to use
-          node-version: v14.20.0
-          # cache deps for pnpm
-          cache: pnpm
+          node-version: 16.x
+
+
+      - name: Run install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install # will run `yarn install` command
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # if needed
+
 
       # run build script
-      - name: Build zlbg.cc site
-        run: pnpm generate
+      - name: Build production bundle
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: generate # will run `yarn build:prod` command
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
