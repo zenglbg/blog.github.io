@@ -25,7 +25,7 @@ jobs:
           # install deps with pnpm
           run_install: true
 
-      - name: Setup Node.js
+      - name: Setup Node1.js
         uses: actions/setup-node@v3
         with:
           # choose node.js version to use
